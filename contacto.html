@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos4.css">
 </head>
 <body>
-$END$
+<br>
+<div id="cuerpo">
+<h1>Formulario de Inscripción a Programas Nutricionales</h1>
+<label>Nombre(s)</label>
+<label for="nombre">
+    <input type="text" id="nombre">
+</label>
+<br><br>
+
+<label>Apellido(s)</label>
+<label for="apellido">
+    <input type="text" id="apellido">
+</label>
+<br><br>
+
+<label>Sexo</label>
+<label for="sexo">
+    <select id="sexo">
+        <option value="default">---Seleccione Una Opción---</option>
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+    </select>
+</label>
+<br><br>
+
+
+<label>Programas Nutricionales Disponibles</label>
+<label for="programaInscripcion">
+    <select id="programaInscripcion">
+        <option value="default">---Seleccione el Programa de su Elección---</option>
+        <option value="consultaPresencial">Consulta Nutricional (Modalidad Presencial)</option>
+        <option value="consultaOnline">Consulta Nutricional (Modalidad Online)</option>
+        <option value="keto">Reto Keto</option>
+        <option value="mantenimiento">Reto Mantenimiento</option>
+        <option value="lowCarb">Reto Low Carb</option>
+    </select>
+</label>
+<br><br>
+
+<label>Metodo de pago</label>
+<label for="pago">
+    <select id="pago">
+        <option value="default">---Seleccione Una Opción---</option>
+        <option value="efectivo">Efectivo</option>
+        <option value="tarjeta">Tarjeta</option>
+    </select>
+</label>
+<br><br>
+
+<label for="pacientesSelect">Usuarios Registrados</label>
+<select id="pacientesSelect">
+    <option value="">---Selecciona Un Paciente--</option>
+</select><br><br>
+<br>
+<br>
+<div class="button-container">
+    <button id="registrar">Registrar</button>
+    <button id="actualizar">Actualizar</button>
+    <button id="eliminar">Eliminar</button>
+    <button id="limpiar">Limpiar</button>
+</div>
+</div>
+<script type="module" src="js/index4.js"></script>
 </body>
 </html>
