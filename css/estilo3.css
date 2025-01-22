@@ -1,0 +1,121 @@
+
+	.textoAnimado{
+		text-align:center;
+		font-family: "Brush Script MT", "Helvetica";
+		font-size: 90px;
+	}
+
+	.textoAnimado {
+		color:gold;
+		transition: color 0.5s ease;
+	}
+
+	.textoAnimado:hover {
+		color: brown;
+	}
+
+	
+	.misión{
+		text-align:center;
+		font-family: "Helvetica", "Arial";
+		font-size: 29px;
+		color:gold;
+	}
+	
+	.parrafostext{
+		text-align:center;
+		font-family: "Helvetica", "Arial";
+		font-size: 20px;
+		color:black;
+	}
+	
+	.visión{
+		text-align:center;
+		font-family: "Helvetica", "Arial";
+		font-size: 29px;
+		color:gold;
+		
+	}
+
+
+	#contenedor {
+		max-width: 400px;
+		margin: auto;
+		padding: 20px;
+		background: #FFA500;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+	h1 {
+		text-align: center;
+		color: red;
+	}
+
+	label {
+		font-weight: bold;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	select, input {
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 5px;
+		border: 1px solid #00138B;
+		border-radius: 4px;
+	}
+
+	#resultado {
+		margin-top: 20px;
+		width: 94%;
+	}
+
+	.referencia{
+		text-align:center;
+		font-family: "Helvetica", "Arial";
+		font-size: 18px;
+	}
+
+	#contenedor2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 60vh;
+		background-color: #FFF8DC;
+	}
+
+	#marco{
+		width: 250px;
+		height: 300px;
+		border: 2px solid black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	#animacion{
+		width: 100%;
+		height: 100%;
+		background-size: contain;
+		background-position: center;
+	}
+
+
+	.video{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 80vh;
+		background-color: #FFF8DC;
+	}
+
+
+	.footer{
+		text-align: center;
+		font-family: "Helvetica", "Arial";
+		font-size: 20px;
+		color:black;
+	}
+	

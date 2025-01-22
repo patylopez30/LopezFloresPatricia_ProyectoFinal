@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Consulta Nutricional (Modalidad Presencial)",
+    "semanas": "Disponibilidad de Agenda",
+    "costo": 58
+  },
+  {
+    "nombre": "Consulta Nutricional (Modalidad Online)",
+    "semanas": "Disponibilidad de Agenda",
+    "costo": 58
+  },
+  {
+    "nombre": "Reto Keto",
+    "semanas": "8 semanas",
+    "costo": 65
+  },
+  {
+    "nombre": "Reto Mantenimiento",
+    "semanas": "12 semanas",
+    "costo": 70
+  },
+  {
+    "nombre": "Reto Low Carb",
+    "semanas": "10 semanas",
+    "costo": 63
+  }
+]

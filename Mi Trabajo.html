@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+	<html lang="es">
+		<head>
+			<meta charset="UTF-8">
+			<title> Proyecto Final: MI TRABAJO</title>
+			<link rel="stylesheet" href="css/estilo3.css">
+			
+		</head>
+		<body>
+
+			<button type="button" class="boton" onclick="cambiarFondo()">Dame Clic</button>
+
+			<h1 class="textoAnimado"> <b>Mi Trabajo</b></h1>
+
+			<p><audio src="multi/Audios/trabajo.mp3" controls autoplay, Loop></audio></p>
+			<p class="misión"><i><b>Misión</b></i></p>
+			<p class="parrafostext"> Brindar a mis pacientes un servicio nutricional personalizado de la más alta calidad a través de información
+				y herramientas basadas en evidencia científica que pueda ayudar a mejorar la calidad de vida.</p> 
+			
+			<p class="visión"><i><b>Visión</b></i></p>
+			<p class="parrafostext">
+				Ofrecer al alcance de todos un Centro de Salud y Nutrición Integral, que permita alcanzar los objetivos personales de salud 
+				y nutrición de cada paciente.</p>
+			<br>
+			
+			<p class="textoAnimado"><i><b>Programas del Centro de Salud y  Nutrición Integral</b></i></p>
+			<p class="parrafostext">
+				Si buscas una atención personalizada te recomendamos revisar la siguiente información de nuestros programas vigentes.</p>
+			<br>
+
+			<div id="contenedor">
+				<h1>Información de Nuestros Programas</h1>
+				<label for="programa">Selecciona un Programa:</label>
+				<select id="programa">
+					<option value="">-----Selecciona-----</option>
+					<option value="0">Consulta Nutricional (Modalidad Presencial)</option>
+					<option value="1">Consulta Nutricional (Modalidad Online)</option>
+					<option value="2">Reto Keto</option>
+					<option value="3">Reto Mantenimiento</option>
+					<option value="4">Reto Low Carb</option>
+				</select>
+				<label for="campo">Selecciona la información a mostrar:</label>
+				<select id="campo">
+					<option value="semanas">Semanas</option>
+					<option value="costo">Costo en dolares</option>
+				</select>
+				<div id="resultado">
+					<label for="informacion">Información:</label>
+					<input type="text" id="informacion" readonly>
+				</div>
+			</div>
+			<br>
+			<p class="textoAnimado"><i><b>¿Qué Incluye?</b></i></p>
+			<p class="parrafostext">
+				La nutrióloga te guiará durante tu proceso de forma ONLINE, 
+				y responderá todas tus dudas en el grupo de apoyo en WhatsApp, u otra aplicación de mensajería.</p>
+			<br>
+			<br>
+			<p class="parrafostext">Nuestros programas incluyen herramientas* de información como:</p>
+			<br>
+			<p class="parrafostext"><i>Menú para desayuno, snacks, comida y cena</i></p>
+			<br>
+			<div id="contenedor2">
+				<div id="marco">
+					<div id="animacion"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<p class="parrafostext"><i>Recetarios para complementar tus platillos</i></p>
+			<br>
+			<p class="parrafostext">Guía del supermercado</p>
+			<br>
+			<p class="parrafostext">Planes de ejercicio en casa</p>
+			<br>
+			<br>
+			<p class="parrafostext"><i>Videos explicativos con recomendaciones nutricionales</i></p>
+			<p class="parrafostext">Ejemplo 1. Método del plato saludable</p>
+			<p class="referencia"><a href = "https://www.epsnutricion.com.mx/" target="_blank" style="text-decoration:none; color:black;">Instituto Nacional de Ciencias Médicas y Nutrición "Salvador Zubirán",INCMNSZ </a></p>
+			<div class="video">
+				<video src="multi/Videos/Método del plato saludable.mp4" controls width=650 height=450 poster="metodo-plato.png" autoplay loop muted></video>
+			</div>
+			<br>
+			<p class="parrafostext">Ejemplo 2. ¿Cómo cuidar el sodio en mis alimentos?</p>
+			<p class="referencia"><a href = "https://www.epsnutricion.com.mx/" target="_blank" style="text-decoration:none; color:black;">Instituto Nacional de Ciencias Médicas y Nutrición "Salvador Zubirán",INCMNSZ </a></p>
+			<div class="video">
+				<video src="multi/Videos/Cuánto sodio hay en los alimentos.mp4" controls width=650 height=450 poster="sodio.jpg" autoplay loop muted></video>
+			</div>
+
+			<br>
+			<p class="parrafostext"><i>*Tendrás acceso a más material educativo en cuánto te inscribas.</i></p>
+			<br>
+			<br>
+			<br>
+			<p class="footer">Centro de Salud y Nutrición Integral | Copyright © 2025  </p>
+			<script src="js/index3.js"></script>
+		</body>
+	</html>

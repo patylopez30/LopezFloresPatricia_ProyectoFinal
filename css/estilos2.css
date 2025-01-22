@@ -1,0 +1,121 @@
+
+	.textoAnimado{
+		text-align:center;
+		font-family: "Brush Script MT", "Helvetica";
+		font-size: 150px;
+	}
+
+	.textoAnimado {
+		color:#D4AC0D ;
+		transition: color 0.5s ease;
+	}
+
+	.textoAnimado:hover {
+		color: mediumblue;
+	}
+
+	.párrafo1{
+		text-align:justify;
+		font-family: "Helvetica", "Arial";
+		font-size: 21px;
+		color:#D4AC0D
+		
+	}
+
+	.párrafo2{
+		text-align:justify;
+		font-family: "Helvetica", "Arial";
+		font-size: 21px;
+		color:#D4AC0D
+	}
+
+	.lista {
+		list-style-type: square;
+		list-style-position: outside;
+		margin: 0;
+		padding: 0 20px;
+		font-style: italic;
+		font-size: 23px;
+		color:#000080;
+	}
+
+	.lista li {
+		margin-bottom: 10px;
+	}
+
+
+	#lista2{
+		text-align:center;
+		font-family: "Helvetica", "Arial";
+		font-size: 23px;
+		text-decoration:none;
+		color:#000080;
+	}
+
+	.escolaridad{
+		text-align:center;
+		font-family: "Helvetica", "Arial";
+		font-size: 33px;
+		color:#D4AC0D
+		
+	}
+	
+	.especialista{
+		text-align:center;
+		font-family: "Helvetica", "Arial";
+		font-size: 33px;
+		color:#D4AC0D
+		
+	}
+
+
+	.video{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 80vh;
+		background-color: #FFF8DC;
+	}
+
+	img{
+		width:400px;
+		display:block;
+		margin:0 auto; 
+		border:4px solid #717D7E;
+		
+	}
+
+
+	#contenedor {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		height: 70vh;
+		background-color: #FFF8DC;
+	}
+
+	#marco{
+		width: 300px;
+		height: 300px;
+		border: 2px solid black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	#animacion{
+		width: 100%;
+		height: 100%;
+		background-size: contain;
+		background-position: center;
+	}
+
+	#footer{
+		text-align: center;
+		font-family: "Helvetica", "Arial";
+		font-size: 18px;
+		color:black;
+	}
+	
+	
